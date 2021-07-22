@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "shovel-knight"
+version = "0.1.0"
+description = "Shovel Knight clone"
+authors = ["Rinald Shabani <rinaldshabani@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pygame = "^2.0.1"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "^1.5.7"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
